@@ -1,5 +1,4 @@
-var thodd = {};
-thodd.LEXJS = {
+var LEXJS = {
     createLexer: function (lexerDefinition, lexicalRulesDefinition, input) {
         var that = {};
 

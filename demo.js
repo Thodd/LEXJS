@@ -49,7 +49,7 @@ var lexicalRules = [
 
 
 var input = "-314.15e-3 + -15 + 23 *42 - k -4.2 * +0.33e-6 =";
-var lexer = thodd.LEXJS.createLexer(lexerDefinition, lexicalRules, input);
+var lexer = LEXJS.createLexer(lexerDefinition, lexicalRules, input);
 
 var next;
 while ((next = lexer.yylex()) !== lexerDefinition.eofSymbol) {
